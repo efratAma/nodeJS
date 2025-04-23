@@ -4,11 +4,11 @@ function sleep(ms: number): Promise<void> {
 }
 
 async function main() {
-    console.log(`זמן לפני השינה: ${new Date().toISOString()}`);
+    console.log(`time before sleep: ${new Date().toISOString()}`);
     
     await sleep(2000); 
 
-    console.log(`זמן אחרי השינה: ${new Date().toISOString()}`);
+    console.log(`time afrer sleep: ${new Date().toISOString()}`);
 }
 
 main();
